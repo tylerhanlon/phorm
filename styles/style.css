@@ -219,7 +219,7 @@
     background-color: #273444; 
     color: white;
     margin: 5vh 5vw;
-    margin-bottom: 7vh 7vw;
+    margin-bottom: 7vh;
     padding: 1vh 3vw;
     text-align: center;
     text-decoration: none;
@@ -262,7 +262,6 @@
     margin: 1vmin;
     min-height: 3vh;
     outline: none;
-    padding: none;
    }
 
    .signup-form-input:focus{
