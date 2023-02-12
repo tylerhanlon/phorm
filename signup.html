@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+    <title>SignUp</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+    <div class="signup-banner">
+        <img id="logo" src="images/Hanlon_Logo-2.png" alt="phormLogo">
+    </div>
+        <!---Navigation-->
+    <div class="nav">
+        <ul class="navBar">
+            <li class="navBarElement"><a href="index.html">Home</a></li>
+            <li class="navBarElement"><a href="x.html">Facilities</a></li>
+            <li class="navBarElement"><a href="x.html">Training Breakdown</a></li>
+            <li class="navBarElement"><a href="x.html">Small Groups</a></li>
+            <li class="navBarElement"><a href="signup.html">Sign Up</a></li>
+        </ul>
+    </div>
+    <!---Body of the sign up form-->
+    <div class="signup-body">
+        <div class="signup-form-body">
+            <form class="signup-form" action="signup.html" method="post" id="signup-page-form">
+                <h1 id="signup-header">Sign up to speak to a Phorm representative!</h1>
+                <label for="fname">First name:</label><br>
+                <input class="signup-form-input" required type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input class="signup-form-input" required type="tel" id="lname" name="lname"><br>
+                <label for="phone">Phone:</label><br>
+                <input class="signup-form-input" required type="tel" id="phone" name="phone"><br>
+                <label for="email">Email:</label><br>
+                <input class="signup-form-input" required type="email" id="email" name="email"><br>
+                <div class="field">
+					<button type="submit" class="signup-form-submit">Submit</button>
+				</div>
+            </form>
+            <script src="scripts/signup_page_input.js"></script>
+        </div>
+    </div>
+        <!---Footer with contact information-->
+    <div class="footer">
+        <p class="footer-paragraph">Website created by Tyler Hanlon Spring 2023</p>
+        <p class="footer-paragraph">Email: <a href="mailto:tyler_hanlon@uri.edu">tyler_hanlon@uri.edu</a></p>
+    </div>
+    <script src="scripts/styling.js"></script>
+</body>
+</html>

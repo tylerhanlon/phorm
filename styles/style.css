@@ -7,11 +7,15 @@
     overflow: auto;
   }
 
+  h1 {
+    margin: 0;
+  }
+
   #header-text {
     text-align: center;
-    font-size: 7vmin;
+    font-size: 6vmin;
     color: #fff;
-    margin-top: 35vmin;
+    margin-top: 35vh;
   }
 
   .head-text {
@@ -45,7 +49,12 @@
     background-color: #555454;
   }
 
-  li a:visited { 
+  li a:visited {
+    text-decoration: none;
+    color:#fff;
+  }
+
+  li a:active { 
     text-decoration: none; 
     color: #f7caa6;
    }
@@ -55,6 +64,10 @@
        text-decoration: none;
        color: #fff;
        margin: 0;
+   }
+
+   li a.current {
+    color: #F7CAA6;
    }
 
    .nav {
@@ -98,6 +111,15 @@
     font-family: 'ZCOOL XiaoWei', sans-serif;
    }
 
+   #signup-header {
+    margin: 1vmin;
+    padding: 2vh;
+    font-size: 6vmin;
+    text-align: center;
+    color: #fff;
+    font-family: 'ZCOOL XiaoWei', sans-serif;
+   }
+
    .content-paragraph-white-desc-left{
     font-family: 'Roboto', sans-serif;
     font-size: 3vmin;
@@ -109,7 +131,7 @@
 
    .content-paragraph-black-desc-right{
     font-family: 'Roboto', sans-serif;
-    font-size: 3vmin;
+    font-size: 2.5vmin;
     padding-top: 5vh;
     padding-left: 5vh;
     text-align: center;
@@ -139,19 +161,36 @@
     margin: 0;
    }
 
+   .signup-banner {
+    background-image: url('../images/gymBanner.png');
+    background-size: 100vw 20vh;
+    height: 20vh;
+    text-align: justify;
+    display: block;
+    overflow: auto;
+   }
+
    .header-button { 
-     margin: 10px auto;
+     margin-bottom: 1vh;
      position: relative;
      background-color: #273444; 
      color: white;
-     padding: 2vh 3vw;
+     padding: 2vh 1vw;
      text-align: center;
-     text-decoration: none;
+     font-weight: bold;
+     font-size: 1.1vmin;
      display: inline-block;
+     min-width: 13vw;
+     white-space:nowrap;
+   }
+
+   .header-button:hover {
+    background-color:#fff;
+    color: #273444;
    }
 
    .footer{
-    height: 10vh;
+    height: 5vh;
     width: 100vw;
     background-color: #273444;
     margin: 0;
@@ -179,12 +218,18 @@
    .signup-button {
     background-color: #273444; 
     color: white;
-    margin: 5vh;
-    padding: 2vh 3vw;
+    margin: 5vh 5vw;
+    margin-bottom: 7vh 7vw;
+    padding: 1vh 3vw;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+   }
+
+   .signup-button:hover {
+    background-color: #fff;
+    color: #273444;
    }
 
    .content {
@@ -194,6 +239,55 @@
      height: 50vh;
      width: 100vw;
      text-align: center;
+   }
+
+   .signup-body{
+    background-color:#F7CAA6;
+    height: 80vh;
+    margin: 0;
+    text-align: center;
+    
+   }
+
+   .signup-form-body{
+    color:#fff;
+    background-image: url('../images/blue-phorm-background4.png');
+    min-width: 92vw;
+    margin-top: 1vh;
+    display: inline-block;
+    min-height: 75vh;
+   }
+
+   .signup-form-input{
+    margin: 1vmin;
+    min-height: 3vh;
+    outline: none;
+    padding: none;
+   }
+
+   .signup-form-input:focus{
+    outline: auto;
+    outline-color: #F7CAA6;
+   }
+
+   .signup-form-submit {
+    margin: 1.5vmin;
+    position: relative;
+    background-color: #F7CAA6; 
+    color: #273444;
+    padding: 1vh 1vw;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1vmin;
+    display: inline-block;
+    min-width: 13vw;
+    white-space:nowrap;
+    border: none;
+   }
+
+   .signup-form-submit:hover {
+    background-color: #fff;
+    color:#273444;
    }
 
 
