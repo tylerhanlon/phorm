@@ -38,6 +38,57 @@
       font-size: x-large;
   }
 
+  .trainer-body {
+    background-color: #f7caa6;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2vmin;
+  }
+
+  .trainers-row{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: fit-content;
+    margin: 10px;
+  }
+
+  .next {
+    display: inline;
+  }
+
+  .trainer-summary{
+    text-align: center;
+    margin: 0;
+    background-color: #273444;
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    height: 30vh;
+  }
+
+  .view-port{
+    background-color: #f7caa6;
+    width: 19vw;
+    height: 27vh;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+  }
+
+
+  .trainer-pic {
+    width: 19vw;
+    height: 27vh;
+    border: 2px solid black;
+    box-sizing: border-box;
+  }
+
+
   #logo {
     width: 20vw;
     height: 10vh;
@@ -159,6 +210,57 @@
     color: white;
     padding-top: 1vh;
     margin: 0;
+   }
+
+   #trainers-header{
+    font-family: 'Roboto', sans-serif;
+    color:#273444;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin: 0;
+    font-size: 5vmin;
+   }
+
+   #next-btn{
+    position: relative;
+    background-color: #273444; 
+    color: white;
+    padding: 1vh 1vw;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1vmin;
+    display: inline-block;
+    min-width: 3vw;
+    white-space:nowrap;
+   }
+  
+   #prev-btn{
+    position: relative;
+    background-color: #273444; 
+    color: white;
+    padding: 1vh 1vw;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1vmin;
+    display: inline-block;
+    min-width: 3vw;
+    margin-bottom: 2px;
+    white-space:nowrap;
+   }
+   #trainer-name{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding-top: 1vh;
+    margin: 0;
+    font-size: 3vmin;
+   }
+
+   #trainer-quote{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding-top: 1vh;
+    margin: 0;
+    font-size: 2vmin;
    }
 
    .signup-banner {
@@ -288,6 +390,10 @@
     background-color: #fff;
     color:#273444;
    }
+
+
+
+
 
 
 
