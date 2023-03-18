@@ -51,6 +51,7 @@ $(document).ready(function(){
                 ajaxRequestHTML("/phorm_v1/taiSummary.html");
                 break;
             case 1:
+                console.log("morgan");
                 ajaxRequestHTML("/phorm_v1/morganSummary.html");
                 break;
             case 2:

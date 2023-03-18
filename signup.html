@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
     <title>SignUp</title>
     <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link href="scripts/jquery-ui.css" rel="stylesheet">
+
 </head>
 <body>
     <div class="signup-banner">
@@ -37,6 +39,8 @@
                 <input class="signup-form-input" required type="tel" id="phone" name="phone"><br>
                 <label for="email">Email:</label><br>
                 <input class="signup-form-input" required type="email" id="email" name="email"><br>
+                <label for="date">Select a date to be contacted: </label><br>
+                <input class="signup-form-input" type="text" name="date" id="date">
                 <div class="field">
 					<button type="submit" class="signup-form-submit">Submit</button>
 				</div>
@@ -49,6 +53,9 @@
         <p class="footer-paragraph">Email: <a href="mailto:tyler_hanlon@uri.edu">tyler_hanlon@uri.edu</a></p>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="scripts/jquery-ui.js"></script>
+    <script src="scripts/jquery-ui.min.js"></script>
+    <script src="scripts/date-picker-api.js"></script>
     <script src="scripts/styling-query.js"></script>
     <script src="scripts/signup_page_input_query.js"></script>
 </body>
